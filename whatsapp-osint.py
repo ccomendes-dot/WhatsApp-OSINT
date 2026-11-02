@@ -321,7 +321,7 @@ def main():
             break
         print("❌ Invalid option. Choose a number between 1 and 6.")
 
-    phone = input("Enter the number (with country code, without '+', e.g. 51916574069): ").strip()
+    phone = input("5549999472153").strip()
     phone = sanitize_phone(phone)
 
     if not is_valid_phone(phone):
